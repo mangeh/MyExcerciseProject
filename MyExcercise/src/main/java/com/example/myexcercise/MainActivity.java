@@ -10,6 +10,13 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        BankAccount bac = new BankAccount();
+        bac.setAccountNumber(1234);
+        System.out.println("bac = " + bac.getAccountNumber());
+        Account b = (BankAccount) bac;
+        System.out.println("MainActivity.onCreate");
+        System.out.println("b = " + b.getAccountNumber());
+
     }
 
 
