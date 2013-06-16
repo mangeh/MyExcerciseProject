@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mylayout);
+
     }
 
     public void sendMessage(View view) {
@@ -31,7 +32,7 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
 
-//New comment333333333
+//New comment
     }
 
 }
