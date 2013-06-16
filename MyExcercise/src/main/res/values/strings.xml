@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name" >My Test App
+    <string name="app_name">My Test App
     </string>
     <string name="title_mylayout">This i my layout
     </string>
-    <string name="action_settings" >Settings
+    <string name="action_settings">Settings
     </string>
-    <string name="hello_world" >A
+    <string name="hello_world">A
     </string>
     <string name="edit_message">Enter a message
     </string>
